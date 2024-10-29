@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<head>
+    <meta forua="true" http-equiv="Cache-Control" content="max-age=3600" />
+</head>
+<card id="page" title="APF Card">
+<p>
+<b>APF Shopping</b><br />
+<small>in association with Amazon.com</small><br />
+<small><anchor>Search<go href="#shopping" /></anchor></small>
+</p>
+%%products_html%% 
+<p>
+<do type="accept" label="Back">
+    <prev/>
+</do> 
+</p>
+</card>
+<card id="shopping">%%wap_search_box%%</card>
+</wml>
+

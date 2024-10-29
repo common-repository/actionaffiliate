@@ -1,0 +1,16 @@
+<!--apf &apf_start=1!
+<div style="background-color:#EEEECC; padding:10px; width:100%;">
+<strong>%%thirdparty_text1%%</strong> %%SellerNickname%%; <strong>%%my_comments_text1%%</strong> %%SellerRating%%; <strong>%%thirdparty_text9%%</strong> %%TotalFeedback%%<br />
+<hr />
+%%SellerAbout%%
+<hr />
+!-->
+<div style="float:left; font-size:x-small; padding:10px; width:20%;">
+%%my_comments_text1%% %%FeedbackRating%%<br />
+%%thirdparty_text11%% %%FeedbackDate%%<br />
+%%thirdparty_text5%% %%FeedbackComment%%<br />
+</div>
+<!--apf &apf_start=last!
+<hr style="clear:both;" /></div><br />
+!-->
+

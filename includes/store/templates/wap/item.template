@@ -1,0 +1,8 @@
+<p>
+<img alt="%%Title%%" src="%%ImageUrlSmall%%" /><br />
+<b>Rating:</b> %%AverageRating%%<br />
+<b>Availability:</b> %%Availability%%<br />
+<b>Price:</b> %%OurFormattedPrice%%<br />
+<a href="%%wap_item_url%%"><big>Buy from Amazon.com</big></a><br />
+</p>
+

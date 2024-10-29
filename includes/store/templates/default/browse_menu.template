@@ -1,0 +1,6 @@
+<!--apf &apf_start=1! <div class="apf_browse_border"><table border="0" bgcolor="#EEEECC" cellpadding="5" width="100%"> !-->
+<!--apf &apf_start=1&apf_repeat=3! <tr> !-->
+<td align="center" width="33%"><a style="font-weight:bolder;" href="%%browse_menu_url%%">%%browse_menu_name%%</a></td>
+<!--apf &apf_start=3&apf_end=last&apf_repeat=3! </tr> !-->
+<!--apf &apf_start=last! </table></div> !-->
+

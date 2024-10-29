@@ -1,0 +1,6 @@
+<div style="text-align:center;">
+<img alt="large image" %%ImageUrlLargeHeight%% %%ImageUrlLargeWidth%% src="%%ImageUrlLarge%%" /><br />
+%%variant_images%%
+%%variation_images%%
+</div>
+

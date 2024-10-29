@@ -1,0 +1,26 @@
+<div style="text-align:center;">%%my_artists%%</div><br />
+<div style="float:left; font-size:x-small; text-align:center;"><a href="%%my_large_image_url%%"><img alt="%%store%% : %%Title%%" border="1" %%ImageUrlMediumHeight%% %%ImageUrlMediumWidth%% src="%%ImageUrlMedium%%" /></a><br />%%variant_images%%</div>
+<div style="float:left; padding-left:20px;">%%my_prices%%<br /><div class="apf_small_text">%%my_used%% %%my_collectible%% %%my_thirdpartynew%% %%my_refurbished%%</div><br />%%variations_html%%</div><br />
+<div style="font-size:x-small; text-align:center;">%%my_availability%%<br /><br />%%shopping_cart_button%%<br /></div>
+<div style="clear:left;">%%variation_images%%<br /></div>
+%%my_promotions%%
+<div style="font-weight:bold;color:#990000;">%%SuperSaverShipping%%</div>
+%%my_descriptors%%<br />
+%%my_features%%<br />
+<hr noshade="noshade" size="1" /><br />
+%%my_tracks%%
+%%my_accessories%%
+%%my_similar_products%%
+%%my_alternateversions%%
+%%similar_browsenodes%%
+<hr noshade="noshade" size="1" /><br />
+%%product_description%%<br />
+<br />
+<div class="apf_color_bar">%%customer_reviews_header%%</div>
+<div style="text-align:center;">%%average_rating_header%%</div>
+<br />
+%%my_shortened_comments%%<br />
+<div style="text-align:center;">%%more_reviews_link%%</div>
+<hr noshade="noshade" size="1" /><br />
+%%img_tracker%%
+

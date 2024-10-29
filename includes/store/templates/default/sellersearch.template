@@ -1,0 +1,15 @@
+<!--apf &apf_repeat=2!
+<div style="background-color:#FFFFFF; border:double; padding:10px; width:100%;">
+!-->
+<!--apf &apf_start=2&apf_repeat=2!
+<div style="background-color:#EEEECC; border:double; padding:10px; width:100%;">
+!-->
+<div style="float:right; font-weight:bold; text-align:center;">%%my_marketplace1%% <span class="apf_prices">%%OfferingPrice%%</span><br />%%shopping_cart_button%%</div>
+<div>
+<a href="%%ExchangeItemUrl%%">%%ExchangeTitle%%</a><br />
+<strong>%%thirdparty_text6%%</strong> %%ExchangeQuantity%%; <strong>%%thirdparty_text2%%</strong> %%Condition%%; <strong>%%thirdparty_text12%%</strong> %%SubCondition%%<br />
+<strong>%%availability_text1%%</strong> %%ExchangeAvailability%%<br />
+<strong>%%thirdparty_text8%%</strong> %%ExchangeEndDate%%<br />
+</div>
+</div><br />
+

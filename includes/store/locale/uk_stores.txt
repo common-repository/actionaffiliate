@@ -1,0 +1,21 @@
++-----------------------+-------+---------------+---------------+
+|Title			|Parent	|Node		|SearchIndex	|
++-----------------------+-------+---------------+---------------+
+|Apparel		null	|83450031	|Apparel	|
+|Baby			|null	|59624031	|Baby		|
+|Books			|null	|266239		|-unknown-	|
+|DIY & Tools		|null	|79903031	|HomeImprovement|
+|Electronics & Photo	|null	|560798		|Electronics	|
+|Health & Beauty	|null	|65801031	|Apparel	|
+|Home & Garden		|null	|3146281	|HomeGarden	|
+|Jewellery & Watches	|null	|328228011	|Watches	|
+|Kitchen		|null	|373825011	|Kitchen	|
+|MP3 Downloads		|null	|77197031	|MP3Downloads	|
+|Music			|null	|229816		|Music		|
+|PC & Video Games	|null	|300703		|VideoGames	|
+|Shoes & Accessories	|null	|355005011	|Apparel	|
+|Software		|null	|300435		|Software	|
+|Sports & Leisure	|null	|318949011	|SportingGoods	|
+|Toys & Games		|null	|468292		|Toys		|
+|Video			|null	|283920		|DVD		|
++-----------------------+-------+---------------+---------------+

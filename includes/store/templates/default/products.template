@@ -1,0 +1,13 @@
+<!--apf &apf_repeat=2!
+<div style="background-color:#EEEECC; padding:10px; width:100%;">
+!-->
+<!--apf &apf_start=2&apf_repeat=2!
+<div style="background-color:#FFFFFF; padding:10px; width:100%;">
+!-->
+<div style="float:left; text-align:right;">%%result_number%%. </div>
+<div style="float:left; padding-left:10px; padding-right:10px;"><a href="%%item_url%%"><img alt="%%store%% : %%Title%%" border="0" %%ImageUrlSmallHeight%% %%ImageUrlSmallWidth%% src="%%ImageUrlSmall%%" /></a></div>
+<div style="float:right;">%%my_prices%%</div>
+<div><a href="%%item_url%%" style="font-weight:bold;">%%Title%%</a><br />%%my_artists%%%%ReleaseDate%%<br /></div>
+</div>
+<div style="clear:both;">&nbsp;</div>
+

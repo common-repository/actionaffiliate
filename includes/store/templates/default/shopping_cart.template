@@ -1,0 +1,35 @@
+<!--apf &apf_start=1!
+<form action="%%script_name%%" method="get" name="cart"><input type="hidden" name="cart_action" value="modify" />%%form_options%% 
+<div style="border:thin groove black; padding:10px; width:100%;">
+	<div style="background-color:#EEEECC; clear:both; font-weight:bold; padding:10px;">
+		<div style="float:right; text-align:right; width:80px;">SubTotal</div>
+		<div style="float:right; text-align:right; width:80px;">Quantity</div>
+		<div style="float:right; text-align:right; width:80px;">Price</div>
+		<div>Product</div>
+	</div>
+!-->
+<!--apf &apf_repeat=2!	<div style="background-color:#FFFFFF; clear:both; padding:10px;">!-->
+<!--apf &apf_start=2&apf_repeat=2!	<div style="background-color:#EEEECC; clear:both; padding:10px;">!-->
+		<div style="float:right; text-align:right; width:80px;">%%my_cart_item_price%%</div>
+		<div style="float:right; text-align:right; width:80px;"><input type="text" name="cart_item_%%my_cartid%%" maxlength="10" size="3" style="text-align:right;" value="%%Quantity%%" /><br /><input class="apf_submit_button_style" style="font-size:8pt;" type="button" value="%%button_text8%%" onclick="delete_item(document.cart.cart_item_%%my_cartid%%)" /></div>
+		<div style="float:right; text-align:right; width:80px;">%%my_cart_item_single_price%%</div>
+		<div style="text-align:top;">%%Title%%</div><br />
+	</div>
+<!--apf &apf_start=last!
+	<div style="background-color:#F0F0F0; clear:both; font-weight:bold; padding:10px;">
+		<div style="float:right; text-align:right; width:80px;">%%cart_price_total%%</div>
+		<div style="float:right; text-align:right; width:80px;">%%cart_qty_total%%</div>
+		<div style="text-align:right;">Totals</div>
+	</div>
+</div><br />
+<div style="clear:both; width=100%;">
+	<div style="float:left;"><input type="button" name="continue" class="apf_submit_button_style" style="font-size:10pt;font-weight:bold;text-decoration:none;" value="%%see_text7%%" onClick="%%continue_page_onclick%%" /></div>
+	<div style="float:right;"><input type="button" name="buy" class="apf_submit_button_style" style="font-size:12pt;font-weight:bold;text-decoration:none;" value="%%button_text1%% &gt;" onClick="parent.location='%%PurchaseURL%%'" /></div>
+	<div style="text-align:center;"><input name="change" class="apf_submit_button_style" style="font-size:10pt;" type="submit" value="%%button_text7%%" /></div>
+</div>
+</form>
+<script type="text/javascript" language="JavaScript">function delete_item( name ) { name.value = 0; document.cart.submit(); }</script><br /><br />
+%%shopping_cart_similar_products%%<br />
+<form action="%%script_name%%" method="get" name="clear_cart"><input type="hidden" name="cart_action" value="clear" />%%form_options%%<input class="apf_submit_button_style" style="font-size:10pt;" type="submit" value="%%button_text9%%" /></form>
+!-->
+

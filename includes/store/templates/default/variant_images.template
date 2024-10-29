@@ -1,0 +1,2 @@
+<a href="%%my_large_image_url_variant%%"><img alt="variant image" border="1" %%variant_image_height%% %%variant_image_width%% src="%%variant_SmallImageUrl%%" /></a>
+

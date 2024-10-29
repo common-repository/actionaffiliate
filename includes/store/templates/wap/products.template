@@ -1,0 +1,5 @@
+<p>
+<a href="%%item_url%%">%%Title%%</a><br />
+<b>%%OurFormattedPrice%%</b><br />
+</p>
+
